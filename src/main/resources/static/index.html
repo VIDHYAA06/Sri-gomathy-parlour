@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Gomathy Beauty Parlour | Premium Luxury Salon & Spa</title>
+    <meta name="description" content="Welcome to Sri Gomathy Beauty Parlour. Experience luxury salon treatments, bridal makeup, hair styling, skin care, and more. Enhance your natural beauty.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="info-items">
+                <span><a href="tel:+918925174955" class="text-white text-decoration-none hover-accent"><i class="fa-solid fa-phone me-2 text-accent"></i> +91 89251 74955</a></span>
+                <span class="ms-4"><a href="mailto:srigomathyparlour@gmail.com" class="text-white text-decoration-none hover-accent"><i class="fa-solid fa-envelope me-2 text-accent"></i> srigomathyparlour@gmail.com</a></span>
+                <span class="ms-4"><i class="fa-solid fa-clock me-2 text-accent"></i> Mon - Sun: 9:00 AM - 8:00 PM</span>
+            </div>
+            <div class="social-links">
+                <a href="https://api.whatsapp.com/send?phone=918925174955" target="_blank" class="text-white ms-3 hover-accent"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/lakshmi2023_/" target="_blank" class="text-white ms-3 hover-accent"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">Sri Gomathy</span>
+                <span class="brand-sub">BEAUTY PARLOUR</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon-custom"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Bridal Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coaching">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <button class="btn btn-luxury-cta" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Appointment</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative text-center">
+            <span class="hero-subtitle scroll-reveal">WELCOME TO EXCELLENCE</span>
+            <h1 class="hero-title scroll-reveal">Sri Gomathy</h1>
+            <h2 class="hero-subtitle-large scroll-reveal">BEAUTY PARLOUR</h2>
+            <div class="divider mx-auto my-3 scroll-reveal">
+                <span class="divider-dot"></span>
+                <span class="divider-line"></span>
+                <span class="divider-dot"></span>
+            </div>
+            <p class="hero-tagline scroll-reveal">Enhancing Your Natural Beauty</p>
+            <div class="hero-cta scroll-reveal mt-4">
+                <button class="btn btn-hero btn-lg px-5 py-2.5 me-3 mb-3 mb-sm-0" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                    <i class="fa-regular fa-calendar-check me-2"></i> Book an Appointment
+                </button>
+                <a href="#services" class="btn btn-hero-outline btn-lg px-5 py-2.5">
+                    Our Services
+                </a>
+            </div>
+        </div>
+        <!-- Elegant floating scroll indicator -->
+        <a href="#about" class="scroll-down">
+            <span class="mouse">
+                <span class="wheel"></span>
+            </span>
+            <span class="arrow"></span>
+        </a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section py-6">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <div class="about-image-wrapper">
+                        <!-- High quality styling representation -->
+                        <div class="about-image-card main-img-card">
+                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800" alt="Beauty salon styling session" class="img-fluid rounded-4 shadow-lg">
+                        </div>
+                        <div class="about-image-card sub-img-card d-none d-sm-block">
+                            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=400" alt="Facial skin care treatment" class="img-fluid rounded-4 shadow-lg">
+                        </div>
+                        <div class="experience-badge animate-float">
+                            <span class="years">15+</span>
+                            <span class="exp-text">Years of<br>Glamour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="section-subtitle">OUR PHILOSOPHY</span>
+                    <h2 class="section-title">Sri Gomathy Beauty Parlour</h2>
+                    <div class="title-line mb-4"></div>
+                    <p class="lead text-muted mb-4">For over a decade, we have been crafting confidence and transforming hair, skin, and beauty with high-end premium care.</p>
+                    <p class="text-body-secondary mb-4">Sri Gomathy Beauty Parlour is a luxury beauty sanctuary designed for women who cherish standard-setting hygiene, advanced skin therapy, master hair crafting, and flawless bridal makeovers. We blend high-grade cosmetics with time-tested professional skill to bring out your luminous beauty.</p>
+                    
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6">
+                            <div class="feature-item d-flex align-items-start">
+                                <span class="feature-icon"><i class="fa-solid fa-award"></i></span>
+                                <div class="ms-3">
+                                    <h5 class="mb-1 text-dark fw-bold">Certified Artists</h5>
+                                    <p class="text-muted small mb-0">Trained beauty therapists and hair masters.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item d-flex align-items-start">
+                                <span class="feature-icon"><i class="fa-solid fa-crown"></i></span>
+                                <div class="ms-3">
+                                    <h5 class="mb-1 text-dark fw-bold">Premium Products</h5>
+                                    <p class="text-muted small mb-0">Organic & luxury professional products only.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-luxury" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Experience Luxury Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-6 bg-light-soft">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-subtitle">INDULGE YOURSELF</span>
+                <h2 class="section-title">Our Premium Services</h2>
+                <div class="title-line mx-auto"></div>
+                <p class="section-desc text-muted mx-auto mt-3">From hair styling to bridal mehendi, explore our exquisite menu of custom-tailored beauty therapies.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- 1. Facial Treatments -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=500" alt="Facial treatments" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹800</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-face-smile-wink"></i></div>
+                            <h4 class="service-title">Facial Treatments</h4>
+                            <p class="service-text">Hydrate, refresh, and illuminate your skin with custom herbal, gold, and collagen fruit facials.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Facial')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Hair Styling -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=500" alt="Hair Styling" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹500</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-scissors"></i></div>
+                            <h4 class="service-title">Hair Styling</h4>
+                            <p class="service-text">Layer cuts, precision trims, blowouts, and curling designs to express your unique personality.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Hair Styling')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Hair Spa -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/hair_spa.png" alt="Hair Spa" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹1200</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                            <h4 class="service-title">Hair Spa</h4>
+                            <p class="service-text">Nourishing steam, scalp massage, and deep conditioning therapies to banish dryness and damage.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Hair Spa')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Bridal Makeup -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=500" alt="Bridal Makeup" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹5000</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <h4 class="service-title">Bridal Makeup</h4>
+                            <p class="service-text">Flawless HD makeovers, traditional styling, saree draping, and setting for your special day.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Bridal Makeup')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Mehendi -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="images/mehandi_design.png" alt="Mehendi Designs" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹400</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-paint-brush"></i></div>
+                            <h4 class="service-title">Arabic & Bridal Mehendi</h4>
+                            <p class="service-text">Intricate traditional motifs, Arabic patterns, and custom bridal mehendi designs.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Mehendi')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Threading -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=500" alt="Threading" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹50</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-eye"></i></div>
+                            <h4 class="service-title">Threading</h4>
+                            <p class="service-text">Precise eyebrow shaping, upper lip, chin and full face threading for a smooth finish.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Threading')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Pedicure & Manicure -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=500" alt="Pedicure & Manicure" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹600</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-hand-sparkles"></i></div>
+                            <h4 class="service-title">Pedicure & Manicure</h4>
+                            <p class="service-text">Revitalizing foot spa, cuticle care, relaxing massage, and high-shine color nail styling.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Pedicure')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Skin Care Treatments -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=500" alt="Skin Care Treatments" class="service-img">
+                            <div class="service-overlay">
+                                <span class="service-price">From ₹1500</span>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon-box"><i class="fa-solid fa-spa"></i></div>
+                            <h4 class="service-title">Skin Care Treatments</h4>
+                            <p class="service-text">De-tan treatments, tan removal packs, advanced peeling, and nourishing glow packs.</p>
+                            <button class="btn btn-card-booking" onclick="selectServiceAndBook('Other')">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridal Package Section -->
+    <section id="packages" class="packages-section py-6 bg-light-soft border-top border-bottom">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-subtitle">OUR SPECIAL BUNDLE</span>
+                <h2 class="section-title">Exclusive Bridal Package</h2>
+                <div class="title-line mx-auto"></div>
+                <p class="section-desc text-muted mx-auto mt-3">All-in-one luxury pampering & complete bridal makeover designed to make you look stunning on your big day.</p>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <!-- Left: Premium Bridal Image -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-card">
+                            <img src="images/bridal_package.png" alt="Premium Bridal Makeover" class="img-fluid rounded-4 shadow-lg w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Package Details -->
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="section-subtitle">THE ULTIMATE BRIDAL EXPERIENCE</span>
+                    <h3 class="font-heading mb-2 text-dark">Royal Radiance Bridal Package</h3>
+                    <div class="package-price-box mb-4">
+                        <span class="package-currency">₹</span>
+                        <span class="package-price">9,999</span>
+                        <span class="package-duration text-muted d-inline ms-2">/ complete package</span>
+                    </div>
+                    <p class="lead text-muted mb-4">Indulge in a standard-setting, highly curated beauty transformation featuring premium cosmetics and expert styling.</p>
+                    
+                    <ul class="package-features row g-3 mb-4 list-unstyled text-start">
+                        <div class="col-sm-6">
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> HD Bridal Makeup & Setting</li>
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Professional Bridal Hairstyle</li>
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Premium Saree Draping</li>
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Gold Glow Radiance Facial</li>
+                        </div>
+                        <div class="col-sm-6">
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Pedicure & Manicure with Gel</li>
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Full Intricate Bridal Mehendi</li>
+                            <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Styling consultation & trial</li>
+                        </div>
+                    </ul>
+
+                    <div class="mt-4">
+                        <button class="btn btn-luxury px-5 py-3" onclick="selectServiceAndBook('Bridal Package - Premium')">
+                            Book Bridal Package Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beautician Coaching Section -->
+    <section id="coaching" class="coaching-section py-6 bg-beige-soft border-top border-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <span class="section-subtitle">BECOME A PROFESSIONAL</span>
+                    <h2 class="section-title">Beautician Academy & Coaching</h2>
+                    <div class="title-line mb-4"></div>
+                    <p class="lead text-muted mb-4">Launch your successful career in the glamour and beauty industry with our comprehensive professional coaching classes.</p>
+                    
+                    <!-- Highlight Box for Price and Modes -->
+                    <div class="course-highlight-box p-3 rounded-4 mb-4 d-flex justify-content-around text-center">
+                        <div class="pe-3">
+                            <span class="d-block text-accent fw-bold fs-5"><i class="fa-solid fa-graduation-cap me-1"></i> Online & Offline</span>
+                            <span class="small text-muted">Flexible Class Formats</span>
+                        </div>
+                        <div class="border-start border-accent-light"></div>
+                        <div class="ps-3">
+                            <span class="d-block text-dark fw-bold fs-5"><i class="fa-solid fa-indian-rupee-sign me-1"></i> Starting at ₹4,999</span>
+                            <span class="small text-muted">Affordable Course Fee</span>
+                        </div>
+                    </div>
+
+                    <p class="text-body-secondary mb-4">We offer flexible syllabus training programs under expert master guidance with complete practical coaching:</p>
+                    
+                    <div class="course-features row g-3 mb-4 text-start">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Threading</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> 6 Types of Facials</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Professional Waxing</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Pedicure & Manicure</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Henna Application</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Hot Oil Massage</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Hair Cuts</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Saree Pleating (3 Types)</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Product Knowledge</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Variety Hairstyles</li>
+                                <li class="mb-2"><i class="fa-solid fa-circle-check text-accent me-2"></i> Professional Certificates</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-luxury" onclick="selectServiceAndBook('Beautician Course Coaching')">
+                            Inquire Now
+                        </button>
+                        <a href="https://api.whatsapp.com/send?phone=918925174955&text=Hello,%20I%20am%20interested%20in%20enrolling%20for%20the%20Beautician%20Coaching%20Course." target="_blank" class="btn btn-hero-outline text-dark border-dark hover-accent px-4 py-3">
+                            <i class="fa-brands fa-whatsapp me-2 text-success"></i> Chat with Course Advisor
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="about-image-wrapper ps-lg-5">
+                        <div class="about-image-card">
+                            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800" alt="Beautician coaching course classes" class="img-fluid rounded-4 shadow-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section py-6">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-subtitle">OUR GLAMOUR DIARY</span>
+                <h2 class="section-title">Visual Transformations</h2>
+                <div class="title-line mx-auto"></div>
+                <p class="section-desc text-muted mx-auto mt-3">Take a look at the exquisite work done by our stylists and artists.</p>
+            </div>
+
+            <!-- Gallery Filters -->
+            <div class="gallery-filters text-center mb-5 d-flex flex-wrap justify-content-center gap-2">
+                <button class="btn btn-gallery-filter active" data-filter="all">All</button>
+                <button class="btn btn-gallery-filter" data-filter="bridal">Bridal Makeup</button>
+                <button class="btn btn-gallery-filter" data-filter="hair">Hair Styling</button>
+                <button class="btn btn-gallery-filter" data-filter="mehendi">Mehendi</button>
+                <button class="btn btn-gallery-filter" data-filter="services">Other Services</button>
+            </div>
+
+            <div class="gallery-grid-masonry">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-col" data-category="services">
+                    <div class="gallery-item" onclick="openLightbox('images/gallery_party_makeup.jpg', 'Elegant party makeover and styling')">
+                        <img src="images/gallery_party_makeup.jpg" alt="Party Makeup" class="gallery-img">
+                        <div class="gallery-hover">
+                            <div class="hover-content">
+                                <span class="gallery-cat">OTHER SERVICES</span>
+                                <h4 class="gallery-title">Elegant Party Makeover</h4>
+                                <span class="zoom-icon"><i class="fa-solid fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-col" data-category="bridal">
+                    <div class="gallery-item" onclick="openLightbox('images/gallery_bridal_makeup1.jpg', 'Traditional bridal glamour makeover')">
+                        <img src="images/gallery_bridal_makeup1.jpg" alt="Bridal Makeup" class="gallery-img">
+                        <div class="gallery-hover">
+                            <div class="hover-content">
+                                <span class="gallery-cat">BRIDAL MAKEUP</span>
+                                <h4 class="gallery-title">Traditional Bridal Glamour</h4>
+                                <span class="zoom-icon"><i class="fa-solid fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-col" data-category="hair">
+                    <div class="gallery-item" onclick="openLightbox('images/gallery_hair_styling1.jpg', 'Royal hair bun and gajra decoration')">
+                        <img src="images/gallery_hair_styling1.jpg" alt="Hair Styling" class="gallery-img">
+                        <div class="gallery-hover">
+                            <div class="hover-content">
+                                <span class="gallery-cat">HAIR STYLING</span>
+                                <h4 class="gallery-title">Royal Bun & Gajra Style</h4>
+                                <span class="zoom-icon"><i class="fa-solid fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-col" data-category="hair">
+                    <div class="gallery-item" onclick="openLightbox('images/gallery_hair_styling2.jpg', 'Classic traditional long hair braid decoration')">
+                        <img src="images/gallery_hair_styling2.jpg" alt="Hair Braid" class="gallery-img">
+                        <div class="gallery-hover">
+                            <div class="hover-content">
+                                <span class="gallery-cat">HAIR STYLING</span>
+                                <h4 class="gallery-title">Classic Traditional Braid</h4>
+                                <span class="zoom-icon"><i class="fa-solid fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-col" data-category="mehendi">
+                    <div class="gallery-item" onclick="openLightbox('images/gallery_bridal_makeup2.jpg', 'Bridal makeup and intricate henna art')">
+                        <img src="images/gallery_bridal_makeup2.jpg" alt="Bridal Henna" class="gallery-img">
+                        <div class="gallery-hover">
+                            <div class="hover-content">
+                                <span class="gallery-cat">MEHENDI & MAKEUP</span>
+                                <h4 class="gallery-title">Bridal Henna & Makeover</h4>
+                                <span class="zoom-icon"><i class="fa-solid fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Banner -->
+    <section class="testimonial-section text-center py-6 bg-rose-gold text-white position-relative">
+        <div class="quote-watermark"><i class="fa-solid fa-quote-left"></i></div>
+        <div class="container position-relative">
+            <span class="testimonial-subtitle">HAPPY CLIENTS</span>
+            <div id="testimonialCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="testimonial-text fs-4 italic">"Sri Gomathy Beauty Parlour gave me the absolute best bridal make-up. It was gorgeous, lightweight, and lasted the whole night! Highly recommended."</p>
+                        <h5 class="testimonial-author mt-4 font-heading">- Archana R., Tirunelveli</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="testimonial-text fs-4 italic">"I regularly visit for Hair Spa and Facials. The staff is extremely polite, the hygiene standards are top-notch, and the skin results are amazing!"</p>
+                        <h5 class="testimonial-author mt-4 font-heading">- Priya Krishnan, Tirunelveli</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="testimonial-text fs-4 italic">"The mehendi work is incredibly detailed and beautiful. The threading is also done with very little pain. My go-to beauty parlour."</p>
+                        <h5 class="testimonial-author mt-4 font-heading">- Vidhya Shree, Tirunelveli</h5>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="contact-section py-6">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-subtitle">FIND US</span>
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="title-line mx-auto"></div>
+                <p class="section-desc text-muted mx-auto mt-3">We look forward to welcoming you to our luxury parlour. Drop by or call us to schedule your pampering session.</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="contact-info-card card border-0 shadow-lg rounded-4 p-4 p-md-5 h-100">
+                        <h3 class="font-heading mb-4 text-dark text-center text-lg-start">Contact Information</h3>
+                        <div class="info-list">
+                            <div class="info-item-block mb-4">
+                                <span class="info-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                <div class="info-text-box ms-3">
+                                    <h5 class="fw-bold mb-1 text-dark">Address</h5>
+                                    <p class="text-muted mb-0">6/68 Deiva Sigamani Street, Burkitmanagaram, Naduvakuruchi, Tirunelveli Dist, Pincode - 627351</p>
+                                </div>
+                            </div>
+                            <div class="info-item-block mb-4">
+                                <span class="info-icon"><i class="fa-solid fa-phone"></i></span>
+                                <div class="info-text-box ms-3">
+                                    <h5 class="fw-bold mb-1 text-dark">Phone</h5>
+                                    <p class="text-muted mb-0"><a href="tel:+918925174955" class="text-decoration-none text-muted">+91 89251 74955</a></p>
+                                    <p class="text-muted mb-0"><a href="tel:+919842474955" class="text-decoration-none text-muted">+91 98424 74955</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item-block mb-4">
+                                <span class="info-icon"><i class="fa-solid fa-envelope"></i></span>
+                                <div class="info-text-box ms-3">
+                                    <h5 class="fw-bold mb-1 text-dark">Email</h5>
+                                    <p class="text-muted mb-0"><a href="mailto:srigomathyparlour@gmail.com" class="text-decoration-none text-muted">srigomathyparlour@gmail.com</a></p>
+                                    <p class="text-muted mb-0"><a href="mailto:lakshmi.sg86@gmail.com" class="text-decoration-none text-muted">lakshmi.sg86@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item-block">
+                                <span class="info-icon"><i class="fa-solid fa-clock"></i></span>
+                                <div class="info-text-box ms-3">
+                                    <h5 class="fw-bold mb-1 text-dark">Opening Hours</h5>
+                                    <p class="text-muted mb-0">Monday - Sunday: 9:00 AM - 8:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="map-card card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+                        <!-- Custom designed premium Map Placeholder -->
+                        <div class="map-container position-relative h-100" style="min-height: 400px;">
+                            <iframe 
+                                src="https://maps.google.com/maps?q=6/68%20Deiva%20Sigamani%20Street,%20Burkitmanagaram,%20Naduvakuruchi,%20Tirunelveli,%20Tamil%20Nadu%20627351&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                                class="w-100 h-100 border-0 absolute-full" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4 text-center text-lg-start">
+                    <h4 class="font-heading text-white mb-2">Sri Gomathy</h4>
+                    <p class="footer-sub-logo mb-3">BEAUTY PARLOUR</p>
+                    <p class="text-secondary small mb-3">Bringing beauty and confidence to your lifestyle with luxurious salon treatments and high-end services.</p>
+                    <p class="text-secondary small mb-1"><i class="fa-solid fa-envelope me-2 text-accent"></i> srigomathyparlour@gmail.com</p>
+                    <p class="text-secondary small mb-0"><i class="fa-solid fa-envelope me-2 text-accent"></i> lakshmi.sg86@gmail.com</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center">
+                    <h5 class="text-white mb-3 font-heading">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center text-lg-end">
+                    <h5 class="text-white mb-3 font-heading">Follow Us</h5>
+                    <div class="footer-social-links">
+                        <a href="https://www.instagram.com/lakshmi2023_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=918925174955" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-secondary small mb-1">© 2026 Sri Gomathy Beauty Parlour. All rights reserved.</p>
+                        <p class="text-secondary small">Designed with Love & Luxury.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL FOR GALLERY -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="" id="lightboxImg" class="img-fluid rounded shadow-lg" alt="">
+                    <p id="lightboxCaption" class="text-white mt-3 fs-5 font-heading"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOKING APPOINTMENT MODAL -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md">
+            <div class="modal-content border-0 shadow-2xl overflow-hidden rounded-4">
+                <div class="modal-header-luxury bg-rose-gold text-white p-3 p-md-4 text-center position-relative">
+                    <h4 class="modal-title font-heading mb-1" id="bookingModalLabel">Book An Appointment</h4>
+                    <p class="mb-0 small text-white-50">Please fill out the form below to secure your beauty session</p>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body p-3 p-md-4">
+                    
+                    <!-- Booking Form -->
+                    <form id="appointmentForm" class="needs-validation" novalidate>
+                        
+                        <!-- Name & Email -->
+                        <div class="mb-2">
+                            <label for="fullName" class="form-label font-heading">Full Name *</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-regular fa-user"></i></span>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="email" class="form-label font-heading">Email Address *</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-regular fa-envelope"></i></span>
+                                <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="mb-2">
+                            <label for="address" class="form-label font-heading">Address *</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-regular fa-map"></i></span>
+                                <textarea class="form-control" id="address" rows="2" placeholder="Your current location/city" required></textarea>
+                                <div class="invalid-feedback">Please enter your address.</div>
+                            </div>
+                        </div>
+
+                        <!-- Service Selector -->
+                        <div class="mb-2">
+                            <label for="serviceRequired" class="form-label font-heading">Service Required *</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-sparkles"></i></span>
+                                <select class="form-select" id="serviceRequired" required>
+                                    <option value="" disabled selected>Choose a service...</option>
+                                    <option value="Facial">Facial</option>
+                                    <option value="Hair Cut">Hair Cut</option>
+                                    <option value="Hair Styling">Hair Styling</option>
+                                    <option value="Hair Spa">Hair Spa</option>
+                                    <option value="Bridal Makeup">Bridal Makeup</option>
+                                    <option value="Mehendi">Mehendi</option>
+                                    <option value="Threading">Threading</option>
+                                    <option value="Pedicure">Pedicure</option>
+                                    <option value="Manicure">Manicure</option>
+                                    <option value="Bridal Package - Premium">Bridal Package - Premium (₹9,999)</option>
+                                    <option value="Beautician Course Coaching">Beautician Course Coaching</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a service.</div>
+                            </div>
+                        </div>
+
+                        <!-- Date & Time -->
+                        <div class="row g-2 mb-2">
+                            <div class="col-md-6">
+                                <label for="appointmentDate" class="form-label font-heading">Preferred Date *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa-regular fa-calendar"></i></span>
+                                    <input type="date" class="form-control" id="appointmentDate" required>
+                                    <div class="invalid-feedback">Choose a valid date.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="appointmentTime" class="form-label font-heading">Preferred Time *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa-regular fa-clock"></i></span>
+                                    <input type="time" class="form-control" id="appointmentTime" required>
+                                    <div class="invalid-feedback">Choose a valid time.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Number Row -->
+                        <div class="mb-3">
+                            <label for="mobileNumber" class="form-label font-heading">Mobile Number *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">+91</span>
+                                <input type="tel" class="form-control" id="mobileNumber" placeholder="9876543210" pattern="[6789][0-9]{9}" required>
+                                <div class="invalid-feedback">Please enter a valid 10-digit mobile number.</div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid mt-3">
+                            <button type="submit" class="btn btn-luxury-submit btn-lg py-3" id="btnSubmitAppointment">
+                                <i class="fa-regular fa-paper-plane me-2"></i> Book Appointment
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SUCCESS & WHATSAPP REDIRECT MODAL -->
+    <div class="modal fade" id="successModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md">
+            <div class="modal-content border-0 shadow-2xl rounded-4 text-center overflow-hidden">
+                <div class="success-top-bar bg-success-gold text-white p-3 p-md-4">
+                    <div class="success-icon-badge mb-2 animate-pulse" style="width: 50px; height: 50px; font-size: 1.5rem; border-width: 2px;"><i class="fa-solid fa-check"></i></div>
+                    <h3 class="font-heading mb-1 text-white" style="font-size: 1.5rem;">Booking Confirmed!</h3>
+                    <p class="mb-0 text-white-50 small">Your booking request was submitted successfully</p>
+                </div>
+                <div class="modal-body p-3 p-md-4">
+                    <h5 class="text-dark font-heading mb-2">What happens next?</h5>
+                    <p class="text-muted mb-3 small">"Your appointment request has been submitted successfully. We will contact you shortly."</p>
+
+                    <!-- Alert Box about WhatsApp -->
+                    <div class="whatsapp-alert-box bg-light-soft p-3 rounded-4 mb-3 border text-start">
+                        <h6 class="text-dark font-heading mb-2" style="font-size: 0.95rem;"><i class="fa-brands fa-whatsapp text-success fs-5 me-2"></i> WhatsApp Dispatch Panel</h6>
+                        <p class="small text-muted mb-2" style="font-size: 0.8rem;">Please click both buttons below to send the pre-filled appointment notification to our parlour administrators simultaneously:</p>
+                        
+                        <div class="d-grid gap-2">
+                            <a href="#" target="_blank" id="btnSendAdmin1" class="btn btn-whatsapp-dispatch d-flex justify-content-between align-items-center py-2 px-3 small">
+                                <span class="small"><i class="fa-brands fa-whatsapp me-2"></i> Dispatch to Coordinator 1</span>
+                                <span class="badge bg-success-accent px-2 py-1 small" id="lblAdmin1Num" style="font-size: 0.75rem;">+91 89251 74955</span>
+                            </a>
+                            <a href="#" target="_blank" id="btnSendAdmin2" class="btn btn-whatsapp-dispatch d-flex justify-content-between align-items-center py-2 px-3 small">
+                                <span class="small"><i class="fa-brands fa-whatsapp me-2"></i> Dispatch to Coordinator 2</span>
+                                <span class="badge bg-success-accent px-2 py-1 small" id="lblAdmin2Num" style="font-size: 0.75rem;">+91 98424 74955</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Summary details review -->
+                    <div class="booking-summary-details text-start bg-light p-3 rounded border mb-3">
+                        <div class="row small g-2">
+                            <div class="col-4 text-muted">Customer Name:</div>
+                            <div class="col-8 fw-semibold text-dark" id="sumName">-</div>
+                            
+                            <div class="col-4 text-muted">Service:</div>
+                            <div class="col-8 fw-semibold text-dark text-accent" id="sumService">-</div>
+                            
+                            <div class="col-4 text-muted">Date & Time:</div>
+                            <div class="col-8 fw-semibold text-dark" id="sumDateTime">-</div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-luxury w-100 py-2.5" data-bs-dismiss="modal">Close & Return</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
